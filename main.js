@@ -8,7 +8,7 @@ window.onload = function(){
 	var numberViews = BB.View('number',true);
 	var controller = BB.Controller(model, numberViews);
 
-	controller1.initialize();
+	controller.initialize();
 
 	document.getElementById("myBtn").addEventListener("click", function(){
 		var ret = controller1.execute();
